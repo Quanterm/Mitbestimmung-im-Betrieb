@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {section}{\numberline {2}Funktion des Betriebsrats}{1}{section.2}%
 \contentsline {section}{\numberline {3}Arbeit des Betriebsrats}{2}{section.3}%
-\contentsline {section}{\numberline {4}Weitere Informationen}{2}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{3}{section.5}%
-\contentsline {section}{\numberline {6}Quellen}{3}{section.6}%
+\contentsline {section}{\numberline {4}Weitere Informationen}{3}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{4}{section.5}%
+\contentsline {section}{\numberline {6}Quellen}{4}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
