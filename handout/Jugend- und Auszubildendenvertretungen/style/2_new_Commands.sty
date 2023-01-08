@@ -1,0 +1,50 @@
+%%%%%		Own COMMANDS	%%%%%
+
+\newcommand{\sectionnumbering}[1]{%
+	\setcounter{section}{0}%
+	\renewcommand{\thesection}{\csname #1\endcsname{section}}}
+	
+\newcommand{\chapternumbering}[1]{%
+  \setcounter{chapter}{0}%
+   \renewcommand{\thechapter}{\csname #1\endcsname{chapter}}}
+
+%%%%%.MATH.%%%%%
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\vektor}[1]{\begin{pmatrix}	#1\end{pmatrix}}
+\newcommand{\hoch}[1]{ ^{#1} }
+\newcommand{\D}[1]{\,\mathrm{d} #1}
+\def\m{\raisebox{.75pt}{-}}
+\def\p{\raisebox{.75pt}{+}}
+%.Absolute and norm value
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+% Swap the definition of \abs* and \norm*, so that \abs and \norm 
+% resizes the size of the brackets, and the starred version does not.
+\makeatletter
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+%
+\let\oldnorm\norm
+\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
+
+%%Scale Integral symbol
+\def\stretchint#1{\vcenter{\hbox{\stretchto[440]{\displaystyle\int}{#1}}}}
+\def\scaleint#1{\vcenter{\hbox{\scaleto[3ex]{\displaystyle\int}{#1}}}}
+\makeatletter
+\renewcommand*\env@matrix[1][r]{\hskip -\arraycolsep
+	\let\@ifnextchar\new@ifnextchar
+	\array{*\c@MaxMatrixCols #1}}
+\makeatother
+
+% %TEXT
+\newcommand{\fett}[1]{\textbf{#1}}
+\newcommand{\abstand}[1]{\phantom{}\hspace{#1}}
+\newcommand{\rot}[1]{ \textcolor{red}{#1} }
+\newcommand{\blau}[1]{ \textcolor{blue}{#1} }
+\setlength {\heavyrulewidth}{0.1 em}
+\newcommand {\otoprule}{\midrule[\heavyrulewidth]}
+\newcolumntype{L}{>{$}l<{$}} % math-mode version of "l" column type
+\newcolumntype{R}{>{$}r<{$}} % math-mode version of "r" column type
+\newcolumntype{C}{>{$}c<{$}} % math-mode version of "c" column type
+

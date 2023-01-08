@@ -1,0 +1,84 @@
+\documentclass[
+  a4paper,            % DIN A4
+  DIV=10,             % Schriftgröße und Satzspiegel    
+  %12pt
+  oneside,            % einseitiger Druck
+  %fleqn
+  %draft,             % Fehler in overfull checken
+  BCOR=5mm,           % Bindungskorrektur
+  parskip=half,       % Halber Abstand zwischen Absätzen
+  numbers=noenddot    % Kein Punkt hinter Kapitelnummern
+]{scrartcl}
+\usepackage{style/style}
+\graphicspath{{img/}}
+
+%%%%% Konfigurierung der Kopfzeile %%%%%
+\lohead{\today}
+\chead{Handout}
+%%\rohead{\includegraphics[scale=2]{LogoTI1.png}}	% Braucht keine Umgebung
+
+%\setlength{\headsep}{1.5cm}
+ \setlength{\headheight}{2.07\baselineskip} 
+
+%%%%% Konfigurierung der Fußzeile %%%%%
+\cfoot{\pagemark}                       % Nummerierung  der Seitenzahlen
+\lofoot{}
+\rofoot{}
+
+
+%%%%%% Beginn of document %%%%%
+\begin{document}
+%%%%% TitlePage %%%%%
+\pagenumbering{gobble}			    % Nummerierung auslassen auf dieser Seite
+\begin{titlepage}
+	\centering
+	\text{}\vspace{3cm} \\
+	{\scshape\LARGE Funktion und Arbeit von Betriebsräten \par}
+	\vspace{1cm}
+	{\scshape\Large 
+		Handout zur Präsentation \par}
+	\vspace{1.5cm}
+	{\huge\bfseries \par}
+	\vspace{2cm}
+	{\Large\itshape     	
+            Thanh-Viet Nguyen \\
+            \par}
+\vfill
+\begingroup
+\leftskip2.5cm		
+        \textbf {} %%Unterzeile
+\endgroup
+\end{titlepage}
+
+%%%%% Table of contents %%%%%%
+    \tableofcontents
+    % \listoffigures
+    % \listoftables
+\clearpage
+
+%%%%% Beginn of the main TEXT %%%%
+\pagenumbering{arabic} 			       %Nummerierung fortsetzen
+%\chapternumbering{Roman}
+
+\section{Einleitung} \label{sec:intro}
+    \input{chapters/01_Einleitung.tex}
+\section{Funktion des Betriebsrats} 
+    \input{chapters/02_Funktion.tex}
+\section{Arbeit des Betriebsrats} 
+\input{chapters/03_Arbeit.tex}
+
+\newpage
+
+\section{Fazit} \label{conclusion}
+  \input{chapters/conclusion.tex}
+\section{Quellen}
+%\section{References}
+
+%\bibliographystyle{dinat}
+%\bibliography{literature}
+
+\clearpage
+%\newpage
+%\section{Anhang}
+
+\end{document}

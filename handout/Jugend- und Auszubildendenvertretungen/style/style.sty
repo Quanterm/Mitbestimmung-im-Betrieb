@@ -1,0 +1,175 @@
+\ProvidesPackage{style/style}
+
+%.Inputs ENCODE
+\RequirePackage[utf8]{inputenc}         % Universal encoding in unicode8
+%\RequirePackage[ansinew]{inputenc}     % Windows encoding
+%\RequirePackage[applemac]{inputenc}    % Mac encoding
+%\RequirePackage[latin1]{inputenc}      % Linux encoding
+
+\RequirePackage[T1]{fontenc}            % Font encode T1 Umlaut
+\RequirePackage[ngerman]{babel}         % new german 
+% !TeX spellcheck = en_GB
+% !TeX spellcheck = en_US
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%.CITATION with natbib
+\RequirePackage[numbers,square]{natbib} % More citation styles
+ \newcommand{\bibTitle}[1]{``#1''}
+ \citeindexfalse
+\RequirePackage{todonotes}              % Adds notes on marginpar (can lead to WARNING!)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%.PAGE LAYOUT
+\RequirePackage[left=25mm,top=25mm,right=25mm,bottom=40mm]{geometry}
+%\RequirePackage{geometry}
+ \geometry{headsep=\baselineskip}
+%\usepackage[margin=1in]{geometry} 		% choose page margins to suit your needs
+
+\RequirePackage[onehalfspacing]{setspace}
+%\singlespacing		%\onehalfspacing	% \doublespacing		%\setstretch{1.1}
+\usepackage{ragged2e}					% flush-left-right Links/rechtsbündig
+\usepackage[automark,headsepline,footsepline]{scrlayer-scrpage} 		% Kopf- und Fußzeilen package
+%\RequirePackage[automark, headsepline]{scrlayer-scrpage}
+
+\clearscrheadfoot                       % clear all headings and footers
+\ihead{\headmark}
+
+\ofoot[\pagemark]{\pagemark}
+\setlength{\parindent} {0px}	        % Damit der Beginn eines Absatzes nicht eingerückt wird
+\pagestyle{scrheadings}				    % freies einstellen der Kopf und Fußzeile
+
+\usepackage{multirow}                   %tabular multicolumn multirow
+\RequirePackage[absolute]{textpos}      % place at absolute coordinates on title page
+
+%\usepackage[font = footnotesize]{caption}
+
+%.CAPTION font                          % For line break etc. in caption(Bildunterschrift)
+\usepackage[%
+    font        = {small,sf},           %font={small,it}
+	labelfont   = bf,
+	format      = hang,    
+	format      = plain,
+	margin      = 0pt,
+	width       = \textwidth,
+]{caption}
+\captionsetup[table]{justification=centerfirst, singlelinecheck=off}
+\RequirePackage[list=true]{subcaption}  % Multiple Pictures next to each other
+
+%.Letter font
+\RequirePackage{courier}                % Courier as \ttdefault
+ \setkomafont{disposition}{\normalfont\bfseries}% Headings in normal font
+%\renewcommand{\familydefault}{\sfdefault}      % Change default font family to sans-serif
+
+%.Verbatim
+\newcommand{\verbatimfont}[1]{\renewcommand{\verbatim@font}{\ttfamily#1}}
+\usepackage[]{listings}
+\renewcommand{\lstlistingname}{Source Code}
+\usepackage{color}
+\definecolor{codegreen}{rgb}{0,0.4,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codebrown}{rgb}{0.797,0.469,0.195}
+\definecolor{backcolour}{rgb}{0.92,0.92,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor     =\color{backcolour},   
+    commentstyle        =\color{codegreen},
+    keywordstyle        =\color{codebrown},
+    numberstyle         =\tiny\color{codegray},
+    stringstyle         =\color{magenta},
+    captionpos          = b, 
+	basicstyle          =%\fontsize{9}{11}\ttfamily, 
+	                      \footnotesize,
+	numbersep           = 10pt,
+	breakatwhitespace   = false,         
+	breaklines          = true,                             
+	keepspaces          = true,                 
+	%numbers             = left,                   
+	showspaces          = false,                
+	showstringspaces    = false,
+	showtabs            = false,                  
+	tabsize             = 1
+}
+\lstset{style = mystyle}
+
+%.Dark mode PDF preview
+%  \usepackage{xcolor} \pagecolor[rgb]{0.25,0.25,0.25} \color[rgb]{0.75,0.75,0.75}
+
+%.Glossaries
+%\usepackage[hidelinks]{hyperref}
+\RequirePackage[
+    colorlinks  = true,
+    breaklinks  = true,
+    linkcolor   = black,
+    filecolor   = black,
+    citecolor   = black,
+    urlcolor    = blue,
+    pdfencoding = auto
+]{hyperref}    
+
+% \renewcaptionname{ngerman}{\figurename}{Abb.}% nach Bedarf
+\AtBeginDocument{%
+  \renewcaptionname{ngerman}{\figureautorefname}{Abb.}%
+}
+
+
+\RequirePackage[
+    nonumberlist,                       % no page numbers
+    acronym,                            % acronyms
+    symbols,                            % and symbols
+    toc
+]{glossaries}                           % for glossary, ...
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%.MATH-formulas, which are numbered etc.
+\RequirePackage{amsmath,amssymb,amsfonts,amstext,amsthm} 
+\usepackage{mathtools,mathrsfs}			% For more symbols
+\usepackage{lmodern} 	                % For the 'antialiasing' of font
+\usepackage{float}			            % For accurately placing graphics and tables with                                      the option [H] behind it.
+\usepackage[normalem]{ulem}		        % Underline things with \uline, to strike the words
+\usepackage{epstopdf}	                % Integrate EPS vector graphics
+\usepackage[]{siunitx} % SI-Unit V.2 support
+\sisetup{output-decimal-marker = {,},
+         exponent-product=\cdot,
+         inter-unit-product    = \ensuremath{{}\cdot{}}}
+\usepackage{array}
+\usepackage{cancel}
+\usepackage{scalerel}[2016-12-29]	    % scale int
+\usepackage{nicefrac}
+\usepackage{listings} 	                % For syntax highlight with \ begin {lstlisting}
+\usepackage{color}		                % For the colors z.B. in the Listings
+\usepackage{colortbl}
+\usepackage{wasysym}
+
+\usepackage{wrapfig}
+
+\usepackage{tabularx,booktabs}	        % various rule-drawing macros
+\usepackage{tikz} 			            % Zahlenstrahl
+\usetikzlibrary{arrows}
+\usepackage{textcomp}
+\usepackage{makeidx}
+
+\usepackage{cleveref}	
+\usepackage{comment}
+\RequirePackage{graphicx}               % Include graphics to document
+\RequirePackage{url}                    % Line break support in URL
+\usepackage{struktex}
+\RequirePackage{gensymb}                % zur Dasrtellung von ° (Grad)
+\usepackage{trfsigns}                   %Fourier/Laplace/Z-Trans
+\usepackage{bm}                         %bold symbol in math mode
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\parindent0pt                           % First line starts imediately
+\setlength{\parindent} {0pt}	        % Beginn eines Absatzes nicht eingerückt wird
+\setlength{\parskip}{0pt}
+\hyphenpenalty=100000
+\setlength\emergencystretch{\hsize}\hbadness=10000
+%\setlength{\emergencystretch}{3em}
+%\setlength\abovedisplayshortskip{0pt}
+%\setlength\belowdisplayshortskip{0pt}
+%\setlength\abovedisplayskip{20pt}
+%\setlength\belowdisplayskip{20pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{pdfpages}               % for 2018 HAW Corporate Design cover page
+
+\RequirePackage{style/1_config_Command}
+\RequirePackage{style/2_new_Commands}
