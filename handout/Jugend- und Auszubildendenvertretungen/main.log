@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022 - Flatpak) (preloaded format=pdflatex 2022.11.15)  8 JAN 2023 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022 - Flatpak) (preloaded format=pdflatex 2022.11.15)  8 JAN 2023 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1613,7 +1613,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 \clearpage
+l.56 \clearpage
                 [2] (./chapters/01_Einleitung.tex) (./chapters/02_Blatt.tex
 [1
 
@@ -1628,14 +1628,14 @@ Here is how much of TeX's memory you used:
  63014 multiletter control sequences out of 15000+600000
  545429 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 140i,19n,134p,10623b,839s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 140i,19n,134p,10623b,903s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/app/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/app/texlive/texmf-di
 st/fonts/enc/dvips/lm/lm-ec.enc}</app/texlive/texmf-dist/fonts/type1/public/lm/
 lmbx10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></app/texl
 ive/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></app/texlive/texmf-dist/fonts
 /type1/public/lm/lmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmri1
 2.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmro10.pfb>
-Output written on main.pdf (6 pages, 165385 bytes).
+Output written on main.pdf (6 pages, 167795 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
