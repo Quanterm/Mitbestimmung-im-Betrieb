@@ -1,16 +1,11 @@
+# Presentation
+This presentation is about the function and work of works councils and Youth and trainee representatives in Germany.
+This presentation is in german if you wish to have a english translation please make an issue request or feel free to contribute or distribute
 
+# Information
+Die Präsentationen zur Funktion und Arbeit von Betriebsräten sowie Jugend- und Auszubildendenvertretungen werden als odp Dateien vorliegen.
+Das Handout ist in Latex geschrieben.
 
-"das sollst du gerne machen können. Durch die Entscheidung eine Präsentation umsetzen zu wollen, bietet sich die Vorbereitung für das Thema im neuen Block an. Dort werden wir uns mit dem Modul „Mitbestimmung im Betrieb“ auseinandersetzen. Eine Präsentation könnte also Gegenstände rund um die Funktion und Arbeit von Betriebsräten oder Jugend- und Auszubildendenvertretungen behandeln. Wenn das auch in deinem Sinne ist, können wir gerne weiter in Austausch gehen was es konkret werden soll, welchen Umfang der Vortrag haben soll und welche Kriterien anzulegen sind."
-
-die Funktion und Arbeit von Betriebsräten 
-Jugend- und Auszubildendenvertretungen
-
-#Quellen:
-
-- https://youtu.be/1KVPmIUZCf8
-
-- https://youtu.be/XQwrS7oWHB8
-
-- https://youtu.be/sooHeO9fhGA
-
+# Verbesserung
+Bei Fehlererkennung oder Verbsserungs vorschläge, bitte issues auf diesen Repo ablegen.
 
