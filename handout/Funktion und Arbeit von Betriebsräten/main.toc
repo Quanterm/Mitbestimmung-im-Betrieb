@@ -1,8 +1,7 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {section}{\numberline {2}Funktion und Arbeit des Betriebsrats}{1}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Funktion und Arbeit des Betriebsrats}{1}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Rechte des Betriebsrats}{3}{section.3}%
+\contentsline {section}{\numberline {3}Rechte des Betriebsrats}{2}{section.3}%
 \contentsline {section}{\numberline {4}Weitere Informationen}{3}{section.4}%
 \contentsline {section}{\numberline {5}Fazit}{4}{section.5}%
 \contentsline {section}{\numberline {6}Quellen}{4}{section.6}%
