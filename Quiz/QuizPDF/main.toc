@@ -1,0 +1,6 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Betriebsrat}{1}{section.1}%
+\contentsline {section}{\numberline {2}Jugend und Auszubildendenvertretung}{2}{section.2}%
+\contentsline {section}{\numberline {3}Lösung: Betriebsrat}{3}{section.3}%
+\contentsline {section}{\numberline {4}Lösung: Jugend und Auszubildendenvertretung}{4}{section.4}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

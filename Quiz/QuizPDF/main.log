@@ -1,0 +1,285 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022 - Flatpak) (preloaded format=pdflatex 2022.11.15)  12 JAN 2023 00:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/app/texlive/texmf-dist/tex/latex/exam/exam.cls
+Document Class: exam 2021/02/26 Version 2.7 by Philip Hirschhorn
+(/app/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/app/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/app/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+\@extrawidth=\skip49
+\@rightmargin=\skip50
+\@extrahead=\skip51
+\@extrafoot=\skip52
+\run@exhd=\skip53
+\fp@exhd=\skip54
+\run@exft=\skip55
+\fp@exft=\skip56
+\covrun@exhd=\skip57
+\covfp@exhd=\skip58
+\covrun@exft=\skip59
+\covfp@exft=\skip60
+\c@num@coverpages=\count193
+\c@latest@ques=\count194
+\c@ques@end=\count195
+\c@last@object=\count196
+\c@incmp@ques=\count197
+\c@next@ques=\count198
+\c@next@page=\count199
+\c@tmp@hlfcntr=\count266
+\c@ifpos@cntr=\count267
+\c@question=\count268
+\c@partno=\count269
+\c@subpart=\count270
+\c@subsubpart=\count271
+\c@choice=\count272
+\c@numpoints=\count273
+\c@numbonuspoints=\count274
+\c@pointsof@thisquestion=\count275
+\c@bonuspointsof@thisquestion=\count276
+\c@numquestions=\count277
+\c@numparts=\count278
+\c@numsubparts=\count279
+\c@numsubsubparts=\count280
+\c@Curr@Page=\count281
+\c@@pagepoints=\count282
+\c@@pagebonuspoints=\count283
+\c@pageof@pagepoints=\count284
+\c@pageof@pagebonuspoints=\count285
+\c@latest@points=\count286
+\c@latest@bonuspoints=\count287
+\pageinfo@commands=\toks16
+\temp@toks=\toks17
+\pagepoint@commands=\toks18
+\point@toks=\toks19
+\c@ques@object=\count288
+\marginpointssep=\skip61
+\rightpointsmargin=\skip62
+\choice@toks=\toks20
+\answerlinelength=\skip63
+\answerskip=\skip64
+\answerclearance=\skip65
+\fillinlinelength=\skip66
+\linefillheight=\skip67
+\linefillthickness=\skip68
+\dottedlinefillheight=\skip69
+\gridsize=\skip70
+\gridlinewidth=\skip71
+\minboxheight=\skip72
+\c@@iterator=\count289
+\@cellwidth=\skip73
+\c@tbl@points=\count290
+\c@tbl@bonuspoints=\count291
+\c@pq@index=\count292
+\c@pq@index@pts=\count293
+\c@pq@index@bpts=\count294
+\c@num@cols=\count295
+\c@num@rows=\count296
+\c@current@row=\count297
+\c@cols@done=\count298
+\exam@box=\box50
+\saved@totalleftmargin=\dimen139
+\@sollistdepth=\count299
+\exam@FrameRule=\dimen140
+\exam@FrameSep=\dimen141
+)
+(/app/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip74
+\RaggedLeftLeftskip=\skip75
+\RaggedRightLeftskip=\skip76
+\CenteringRightskip=\skip77
+\RaggedLeftRightskip=\skip78
+\RaggedRightRightskip=\skip79
+\CenteringParfillskip=\skip80
+\RaggedLeftParfillskip=\skip81
+\RaggedRightParfillskip=\skip82
+\JustifyingParfillskip=\skip83
+\CenteringParindent=\skip84
+\RaggedLeftParindent=\skip85
+\RaggedRightParindent=\skip86
+\JustifyingParindent=\skip87
+)
+(/app/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/app/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/app/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/app/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/app/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/app/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(/app/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count300
+\U@D=\dimen144
+\l@unhyphenated=\language87
+
+(/app/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count301
+
+(/app/texlive/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2021/02/27 v2.13 German support for babel (pre-1996 orthograph
+y)
+
+(/app/texlive/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2021/02/27 v2.13 German support for babel (pre-1996 orthograp
+hy)
+Package babel Info: Making " an active character on input line 139.
+)))
+(/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count302
+\l__pdf_internal_box=\box51
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+(/app/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count303
+\scratchdimen=\dimen145
+\scratchbox=\box52
+\nofMPsegments=\count304
+\nofMParguments=\count305
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen146
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
+\everyMPtoPDFconversion=\toks23
+) (/app/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/app/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/app/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/app/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/app/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/app/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/app/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/app/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/app/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/app/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+<img/88x31.png, id=1, 88.33pt x 31.11626pt>
+File: img/88x31.png Graphic file (type png)
+<use img/88x31.png>
+Package pdftex.def Info: img/88x31.png  used on input line 16.
+(pdftex.def)             Requested size: 46.97836pt x 16.54945pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 23.
+ [1
+
+{/app/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./img/88x31.png>]
+ [2]
+[3] [4] [5] [6] [7] [8] [9]
+This exam contains 8 questions with 0 parts, 0 subparts, and 0 subsubparts.
+(./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 4197 strings out of 478268
+ 69423 string characters out of 5847839
+ 385890 words of memory out of 5000000
+ 22380 multiletter control sequences out of 15000+600000
+ 472602 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,10n,67p,207b,354s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (9 pages, 74818 bytes).
+PDF statistics:
+ 61 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
