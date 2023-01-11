@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022 - Flatpak) (preloaded format=pdflatex 2022.11.15)  11 JAN 2023 00:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022 - Flatpak) (preloaded format=pdflatex 2022.11.15)  11 JAN 2023 01:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1592,7 +1592,7 @@ Package pdftex.def Info: img/BetriebsratsRechte.png  used on input line 1.
  Excluding 'comment' comment.) [2]
 (./chapters/Fazit.tex)
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
-3.
+4.
  (/app/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1603,7 +1603,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  44841 strings out of 478268
  924501 string characters out of 5847839
- 1333696 words of memory out of 5000000
+ 1333697 words of memory out of 5000000
  62231 multiletter control sequences out of 15000+600000
  542750 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1615,10 +1615,10 @@ ive/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></app/texlive/texmf-dist/fonts
 /type1/public/lm/lmr10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmri1
 2.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmro10.pfb></app/texlive/t
 exmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (5 pages, 324354 bytes).
+Output written on main.pdf (5 pages, 324750 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
