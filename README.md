@@ -7,5 +7,5 @@ Die Präsentationen zur Funktion und Arbeit von Betriebsräten sowie Jugend- und
 Das Handout ist in Latex geschrieben.
 
 # Verbesserung
-Bei Fehlererkennung oder Verbsserungs vorschläge, bitte issues auf diesen Repo ablegen.
+Bei Fehlererkennung oder Verbsserungsvorschläge, bitte "issues" auf diesen Repo ablegen.
 
