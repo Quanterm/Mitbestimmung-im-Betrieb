@@ -6,7 +6,7 @@ This presentation is in german if you wish to have a english translation please 
 Die Präsentationen zur Funktion und Arbeit von Betriebsräten sowie Jugend- und Auszubildendenvertretungen werden als odp Dateien vorliegen.
 Das Handout ist in Latex geschrieben.
 Zu den Materialen gibt es auch ein [Quiz](https://cryptpad.fr/form/#/3/form/view/0c936c13bd97805c5537b40b3f44dee9/).
-Die Lösungen befinden sich im Dem Quiz pdf.
+Die Lösungen befinden sich im dem Quiz pdf.
 
 # Verbesserung
 Bei Fehlererkennung oder Verbsserungsvorschläge, bitte "issues" auf diesen Repo ablegen.
