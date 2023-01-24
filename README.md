@@ -11,7 +11,7 @@ Die Lösungen befinden sich im dem Quiz pdf.
 # Verbesserung
 Bei Fehlererkennung oder Verbsserungsvorschläge, bitte "issues" auf diesen Repo ablegen.
 
-#Setup
+# Setup
 - Betriebsystem: [Debian GNU/Linux: Gnome und Plasma] (https://www.debian.org/)
 - Aufnahmeprogramm: [OBS Studio] (https://obsproject.com/download)
 - Schnittprogramm: [Kdenlive] (https://kdenlive.org/de/)
