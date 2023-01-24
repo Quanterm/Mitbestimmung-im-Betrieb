@@ -5,7 +5,16 @@ This presentation is in german if you wish to have a english translation please 
 # Information
 Die Präsentationen zur Funktion und Arbeit von Betriebsräten sowie Jugend- und Auszubildendenvertretungen werden als odp Dateien vorliegen.
 Das Handout ist in Latex geschrieben.
+Zu den Materialen gibt es auch ein [Quiz](https://cryptpad.fr/form/#/3/form/view/0c936c13bd97805c5537b40b3f44dee9/).
+Die Lösungen befinden sich im Dem Quiz pdf.
 
 # Verbesserung
 Bei Fehlererkennung oder Verbsserungsvorschläge, bitte "issues" auf diesen Repo ablegen.
 
+#Setup
+- Betriebsystem: [Debian GNU/Linux: Gnome und Plasma] (https://www.debian.org/)
+- Aufnahmeprogramm: [OBS Studio] (https://obsproject.com/download)
+- Schnittprogramm: [Kdenlive] (https://kdenlive.org/de/)
+- PDF Erstellung: [Texstudio mit Texlive] (https://www.texstudio.org/)
+- Präsentationsfolien erstellung: [Libreoffice] (https://de.libreoffice.org/)
+- Quiz Erstellung WEB UI: [Cryptpad Formula] (https://cryptpad.fr/)
